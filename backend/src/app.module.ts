@@ -28,6 +28,9 @@ import { TransactionsModule } from './transactions/transactions.module';
 import { TicketsModule } from './tickets/tickets.module';
 import { AdminModule } from './admin/admin.module';
 import { RegistrationsModule } from './registrations/registrations.module';
+import { AgeVerificationModule } from './age-verification/age-verification.module';
+import { MobilePaymentsModule } from './mobile-payments/mobile-payments.module';
+import { RecommendationsModule } from './recommendations/recommendations.module';
 
 @Module({
   imports: [
@@ -103,6 +106,9 @@ import { RegistrationsModule } from './registrations/registrations.module';
     TicketsModule,
     AdminModule,
     RegistrationsModule,
+    AgeVerificationModule,
+    MobilePaymentsModule,
+    RecommendationsModule,
   ],
   controllers: [AppController],
   providers: [
